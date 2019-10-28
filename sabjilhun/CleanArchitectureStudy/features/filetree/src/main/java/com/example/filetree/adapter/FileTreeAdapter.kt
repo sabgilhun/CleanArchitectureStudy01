@@ -13,7 +13,7 @@ import com.example.filetree.databinding.ItemFileTreeBinding
 class FileTreeAdapter :
     RecyclerView.Adapter<FileTreeAdapter.FileViewHolder>() {
     private val flattenTree = mutableListOf<FileDataHolder<RepositoryFile>>()
-    var fileTree: Tree<RepositoryFile>? = null
+    private var fileTree: Tree<RepositoryFile>? = null
 
     override fun onCreateViewHolder(
         parent: ViewGroup,

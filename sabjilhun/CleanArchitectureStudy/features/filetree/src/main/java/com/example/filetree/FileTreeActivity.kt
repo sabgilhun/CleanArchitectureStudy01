@@ -8,6 +8,7 @@ import com.example.common.base.BaseActivity
 import com.example.domain.entities.RepositoryBranch
 import com.example.filetree.adapter.FileTreeAdapter
 import com.example.filetree.databinding.ActivityFileTreeBinding
+import com.example.filetree.databinding.ItemFileTreeBinding
 import com.example.navigator.FileTreeNavigator
 import com.example.navigator.FileTreeNavigatorConstants
 import javax.inject.Inject
